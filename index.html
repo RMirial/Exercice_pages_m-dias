@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Bienvenue sur une page consacré aux médias et au menus sans javascript</h1>
+    
+        <h3>Intégration de médias</h3>
+        <div class="videos">
+            <div class="youtube" style="background-color:wheat;">
+                <figure>
+                    <figcaption><h3 >Integrer une vidéo depuis un site tel que youtube</h3></figcaption>
+                <iframe width="400" height="222" src="https://www.youtube.com/embed/2ih3kVkk5_Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                </figure>
+            </div>
+            <div class="videos" style="background-color: rgb(148, 185, 233);">
+                <figure>
+                    <figcaption><h3 >Integrer un fichier vidéo en local</h3></figcaption>
+                    <video width="400" height="222" controls="controls">
+                        <source src="media/LouisAmstrong-DownBytheRiversideLyrics.mp4" type="video/mp4" />
+                    </video>
+                </figure>
+                
+            </div>
+            <div class="audio" style="background-color: rgb(218, 160, 160);padding:auto;">
+                <figure>
+                    <figcaption><h3>Integrer un fichier audio en local</h3></figcaption>
+                    <audio controls="controls">
+                        <source src="media/LouisAmstrong-DownBytheRiversideLyrics.mp3" type="audio/mp3" />
+                    </audio>
+                </figure>   
+            </div>
+        </div>
+        <h3>Différents types de menus </h3>
+    <div id="menus">
+    <!-- Le Menu vertical -->
+    <div id="menu-vertical">
+        <h3>Le Menu vertical</h3>
+        <nav>
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li><a href="#">About Me </a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a> </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Le Menu Horizontal -->
+    <div id="menu-horizontal">
+        <h3>Le Menu Horizontal</h3>
+        <nav>
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li><a href="#">About Me </a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a> </li>
+            </ul>
+        </nav>
+    </div >
+    <!-- Le Menu déoulant -->
+    <div id="menu-deroulant" class="stop-float">
+        <h3>Le Menu déoulant Simple (sans javascript)</h3>
+        <nav>
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li><a href="#">About Me</a> 
+                    <ul>
+                        <li><a href="#">sub-menu-1</a></li>
+                        <li><a href="#">sub-menu-2</a></li>
+                        <li><a href="#">sub-menu-3</a></li>
+                    </ul>
+                </li>
+                <li> <a href="#">Gallery</a> 
+                    <ul>
+                        <li><a href="#">sub-menu-1</a></li>
+                        <li><a href="#">sub-menu-2</a></li>
+                        <li><a href="#">sub-menu-3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a>  </li>
+            </ul>
+        </nav>
+    </div>
+    
+    </div>
+    <!-- Le Menu avec des sprites -->
+
+        <h3><span>Petit travail de recherche à réaliser si vous le désirez : </span> Réaliser un menu avec des sprites</h3>
+ 
+</body>
+</html>
